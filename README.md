@@ -1,6 +1,32 @@
 # CivivLens - – AI-Powered Transparency & Accountability Platform
 CivicLens uses generative AI and public data APIs to make government transparency, community impact, and public project spending more accessible to citizens. It automatically aggregates open government datasets, budget reports, and procurement documents — then uses Geminito translate them into plain language insights, dashboards, and alerts.
 
+CivicLens is an AI-powered transparency assistant that transforms complex government data into easy-to-understand insights. It empowers citizens, journalists, and policymakers with clear, fact-based summaries and visual analytics about how public funds are allocated and spent.
+🌍 Goal
+Use AI Studio + Gemini + Cloud Run to:
+* Automatically summarize open government datasets.
+* Provide a conversational AI (“Ask CivicLens”) for data exploration.
+* Detect irregular spending using anomaly detection models.
+* Deploy the entire application serverlessly with Cloud Run.
+
+🧩 Core Features
+Module	Description
+🧠 AI Summarizer	Ingests public datasets (CSV, JSON, PDF) → Summarizes them using Gemini in plain language.
+💬 Civic Q&A Bot	Natural-language chatbot powered by Gemini — answers questions like “Where did my tax money go?”.
+💰 Spending Visualizer	Next.js frontend with charts and maps (by region, sector, or project).
+⚠️ Anomaly Detector	ML model (BigQuery ML + Gemini reasoning) flags unusual spending patterns.
+🔐 Secure Gateway	OAuth2 with Google Identity; stores only anonymized and public data.
+☁️ Serverless Infra	Fully deployed on Cloud Run with CI/CD, Pub/Sub, and Firestore integration.
+🏗️ Architecture
+* Frontend Service (Cloud Run A): Next.js + Tailwind → static UI, interactive dashboards
+* Backend API (Cloud Run B): FastAPI + Gemini SDK for AI endpoints
+* Data Pipeline: Pub/Sub → BigQuery → Firestore
+* AI Core: Gemini 1.5 Flash & Gemini 1.5 Pro (for summarization + reasoning)
+* Security: Google Identity Platform for OAuth2
+* Automation: GitHub Actions + Terraform for Cloud Run deploys
+
+Tech Stack: Gemini + AI Studio + Cloud Run + BigQuery + Firestore + Pub/Sub
+
 🧩 Key Features
 1. AI Transparency Summaries — Converts dense reports (PDFs, CSVs, or APIs) into human-readable summaries.
 2. Budget Breakdown Generator — Visualizes how funds are allocated across public projects.
