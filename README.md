@@ -3,9 +3,10 @@ CivicLens uses generative AI and public data APIs to make government transparenc
 
 https://gemini.google.com/share/d791ee639246
 
-https://www.canva.com/design/DAG25LqQAPU/Nztq3JFso4f53yznjQk0Cw/edit?utm_content=DAG25LqQAPU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton 
+https://vimeo.com/1130778641
 
 CivicLens is an AI-powered transparency assistant that transforms complex government data into easy-to-understand insights. It empowers citizens, journalists, and policymakers with clear, fact-based summaries and visual analytics about how public funds are allocated and spent.
+
 🌍 Goal
 Use AI Studio + Gemini + Cloud Run to:
 * Automatically summarize open government datasets.
