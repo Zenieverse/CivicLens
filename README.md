@@ -21,15 +21,7 @@ Module	Description
 💰 Spending Visualizer	Next.js frontend with charts and maps (by region, sector, or project).
 ⚠️ Anomaly Detector	ML model (BigQuery ML + Gemini reasoning) flags unusual spending patterns.
 🔐 Secure Gateway	OAuth2 with Google Identity; stores only anonymized and public data.
-☁️ Serverless Infra	Fully deployed on Cloud Run with CI/CD, Pub/Sub, and Firestore integration.
-🏗️ Architecture
-* Frontend Service (Cloud Run A): Next.js + Tailwind → static UI, interactive dashboards
-* Backend API (Cloud Run B): FastAPI + Gemini SDK for AI endpoints
-* Data Pipeline: Pub/Sub → BigQuery → Firestore
-* AI Core: Gemini 1.5 Flash & Gemini 1.5 Pro (for summarization + reasoning)
-* Security: Google Identity Platform for OAuth2
-* Automation: GitHub Actions + Terraform for Cloud Run deploys
-
+☁️ Serverless Infra	Fully deployed on Cloud Run with CI/CD, Pub/Sub, and Firestore integration
 Tech Stack: Gemini + AI Studio + Cloud Run + BigQuery + Firestore + Pub/Sub
 
 🧩 Key Features
