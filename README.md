@@ -3,6 +3,9 @@ CivicLens uses generative AI and public data APIs to make government transparenc
 
 https://gemini.google.com/share/d791ee639246
 
+<img width="1536" height="1024" alt="IMG_1316" src="https://github.com/user-attachments/assets/9f0c9fa6-65c5-4ab7-9fe4-ed89ed477964" />
+
+
 https://vimeo.com/1130778641
 
 CivicLens is an AI-powered transparency assistant that transforms complex government data into easy-to-understand insights. It empowers citizens, journalists, and policymakers with clear, fact-based summaries and visual analytics about how public funds are allocated and spent.
